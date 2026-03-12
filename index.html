@@ -10,49 +10,49 @@
     <meta name="distribution" content="global">
     <meta name="KeyWords" content="Conference">
     <title>FM4Urban</title>
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+
 </head>
 
 <body>
+<header class="banner">
 
-    <div class="banner">
-        <img src="assets/naples.webp" width="100%">
-        <div class="top-left">
-            <span class="title1">FM4Urban</span><span class="title2"> Workshop</span>
-        </div>
-        <div class="bottom-right">
-            September 7-11, 2026 <br> Naples, Italy
-        </div>
+    <img src="assets/naples_mod.jpg" class="banner-img">
+
+    <div class="banner-text">
+        <h1>FM4Urban 2026</h1><br><br>
+        <p class="banner-subtitle">
+			Co-located with ECMLPKDD 2026<br>
+			TBD, 2026 — Naples, Italy
+		</p>
     </div>
 
-    <table class="navigation">
-        <tr>
-            <td class="navigation">
-                <a class="current" title="Conference Home Page" href=".">Home</a>
-            </td>
-            <td class="navigation">
-                <a title="Register for the Conference" href="registration">Registration</a>
-            </td>
-            <td class="navigation">
-                <a title="Conference Program" href="program">Program</a> 
-            </td>
-            <td class="navigation">
-                <a title="Directions to the Conference" href="directions">Directions</a>
-            </td>
-            <td class="navigation">
-                <a title="Conference Flyer" href="flyer">Flyer</a>
-            </td>
-        </tr>
-    </table>
+</header>
 
-    <section class="hero">
-  <h2>Foundation Models for Urban Analytics and Intelligence</h2>
-  <h2><i>From Theory to Real-World Impact</i></h2>
-  <p>Workshop at ECML PKDD 2026</p>
-  <p>Naples, Italy • September 2026</p>
+<nav class="navbar">
+<center>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#dates">Important Dates</a></li>
+<li><a href="#submission">Submission</a></li>
+<li><a href="#committee">Committee</a></li>
+</ul>
+</center>
+</nav>
+
+
+
+<section class="hero">
+<h3>1st Workshop on<br><b>Foundation Models for Urban Analytics and Intelligence</b></h3>
 </section>
 
 
-<section>
+<section id="about">
 <h2>About the Workshop</h2>
 
 <p>
@@ -76,13 +76,10 @@ together researchers, practitioners, and policymakers to discuss cutting-edge re
 open challenges, and real-world deployments across the urban domain.
 </p>
 
-</section>
+<p>
+<b>Topics of interest</b> include but are not limited to:
 
-
-<section>
-<h2>Topics of Interest</h2>
-
-<ul>
+<ul style="list-style: disc;">
 <li>Foundation models for urban analytics and urban intelligence</li>
 <li>Multimodal fusion of urban data (time series, satellite imagery, text, IoT sensors)</li>
 <li>Foundation models for climate-aware urban analytics and sustainability</li>
@@ -94,11 +91,12 @@ open challenges, and real-world deployments across the urban domain.
 <li>Agentic AI for urban planning and digital twins</li>
 <li>Real-world deployments in transportation, energy, environment, and public safety</li>
 </ul>
+</p>
 
 </section>
 
 
-<section>
+<section id="dates">
 <h2>Important Dates</h2>
 
 <ul>
@@ -111,7 +109,33 @@ open challenges, and real-world deployments across the urban domain.
 </section>
 
 
-<section>
+<section id="submission">
+<h2>Submission information</h2>
+
+<p>
+Full research papers, short papers, and visionary position papers are welcome.
+</p>
+
+<p>
+Papers must be written in English and formatted in LaTeX, following the outline of the author kit <a href="https://ecmlpkdd-storage.s3.eu-central-1.amazonaws.com/2025/ECML_PKDD_2025_Author_Kit.zip">Springer LNCS Template Download</a>.
+Full papers are a maximum of <b>8 pages</b> (including references). 
+Short and position papers are a maximum of <b>4 pages</b>. 
+Short and visionary papers (<b>4 pages</b>) will be presented in poster format during the workshop.
+</p>
+
+<p>
+All accepted papers must be presented in person at the workshop.
+</p>
+
+<p>
+Post-workshop proceedings will be published by Springer in the Communications in Computer and Information Science (CCIS) series. 
+Authors of accepted papers will have the option to opt in or opt out of the post-workshop publication.
+</p>
+
+</section>
+
+
+<section id="format">
 <h2>Workshop Format</h2>
 
 <p>
@@ -128,7 +152,7 @@ for <b>Best Paper</b> and <b>Best Poster</b> awards using QR codes during the ev
 </section>
 
 
-<section>
+<section id="committee">
 <h2>Organizing Committee</h2>
 
 <ul>
@@ -139,23 +163,32 @@ for <b>Best Paper</b> and <b>Best Poster</b> awards using QR codes during the ev
 <li><b>Federica Rollo</b> — University of Modena and Reggio Emilia</li>
 </ul>
 
+<h2>Program Committee</h2>
+
+<ul>
+<li>Abdul Fatir Ansari (AWS)</li>
+<li>Arjun Ashok (Mila / ServiceNow)</li>
+<li>Qingsong Wen (Squirrel Ai Learning)</li>
+<li>Mononito Goswami (AWS)</li>
+<li>Panos Kalnis (KAUST)</li>
+<li>Yuxuan Liang (HKUST (GZ))</li>
+<li>Thomas Moreau (Inria)</li>
+<li>Paul Boniol (Inria)</li>
+<li>Ievgen Redko (Huawei Noah’s Ark Lab)</li>
+<li>Ming Jin (Griffith University)</li>
+<li>Geeth De Mel (IBM Research Europe)</li>
+<li>Hao Xue (UNSW)</li>
+<li>Cyrus Shahabi (University of Southern California)</li>
+<li>Cheng Long (Nanyang Technological University)</li>
+<li>Zijian Zhang (Jilin University)</li>
+<li>Kai Zhao (MBZUAI)</li>
+<li>Haomin Wen (CMU)</li>
+<li>Wenqi Fan (PolyU)</li>
+<li>Sean Bin Yang (AAU)</li>
+</ul>
+
 </section>
 
-
-<section>
-<h2>Conference</h2>
-
-<p>
-FM4Urban will be held as part of the
-ECML PKDD 2026 conference in Naples, Italy.
-</p>
-
-<p>
-The workshop will take place during the official workshop days of the conference.
-</p>
-
-</section>
 
 </body>
 </html>
-
