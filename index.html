@@ -20,8 +20,7 @@
 		    max-width: 900px;
 		    margin: 20px auto;
 		    border-collapse: collapse;
-		    font-size: 0.95em;
-		    table-layout: fixed;
+		    font-size: 0.90em;
 		}
 		
 		table.program th,
@@ -41,8 +40,14 @@
 
 		table.program th:first-child,
 		table.program td:first-child {
-			width: 140px;   /* prova 120px, 140px o 160px */
+			width: 120px;   /* prova 120px, 140px o 160px */
 			white-space: nowrap;
+		}
+
+		table.program td:last-child {
+		    white-space: normal;
+		    overflow-wrap: anywhere;
+		    word-break: normal;
 		}
     </style>
 
