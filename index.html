@@ -20,7 +20,8 @@
 		    max-width: 900px;
 		    margin: 20px auto;
 		    border-collapse: collapse;
-			font-size: 0.95em;
+		    font-size: 0.95em;
+		    table-layout: fixed;
 		}
 		
 		table.program th,
@@ -36,6 +37,12 @@
 		
 		table.program tr:nth-child(even) {
 		    background-color: #fafafa;
+		}
+
+		table.program th:first-child,
+		table.program td:first-child {
+			width: 140px;   /* prova 120px, 140px o 160px */
+			white-space: nowrap;
 		}
     </style>
 
@@ -255,7 +262,7 @@ Lightning talks for the visionary, short papers and extended abstracts:
 <tr>
 <td><b>10:30–11:00</b></td>
 <td>
-<b>Coffee Break &amp; Poster Session</b>
+<b>Coffee Break and Poster Session</b>
 </td>
 </tr>
 
@@ -282,7 +289,7 @@ Presentations of the full papers:
 <tr>
 <td><b>12:40–13:00</b></td>
 <td>
-<b>Awards Ceremony &amp; Closing Remarks</b>
+<b>Awards Ceremony and Closing Remarks</b>
 </td>
 </tr>
 
